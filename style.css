@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-100 text-gray-800 font-sans;
+    }
+
+    h1 {
+        @apply text-2xl font-bold text-gray-900;
+    }
+
+    h2 {
+        @apply text-lg font-bold text-gray-900 uppercase tracking-wide border-b-2 border-primary mb-4 pb-1;
+    }
+
+    h3 {
+        @apply text-base font-semibold text-gray-800;
+    }
+}
+
+@media print {
+    @page {
+        margin: 0.5cm;
+    }
+}

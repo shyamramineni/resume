@@ -1,0 +1,134 @@
+{
+    "profile": {
+        "name": "Shyam Ramineni",
+        "title": "Technical Manager",
+        "avatar": "/avatar.png",
+        "summary": "Technical Manager with proven experience in Telecom, Insurance and HR domains. I handle Digital Channels for a large Mobile Network operator. I am responsible for both Web and Mobile applications which integrate with the BSS and OSS stack in the back end. These Apps are first touch points in customer journey and handle eCommerce, and Self Service functionality for all the customers. I handle the Delivery for major Product roll outs, Network Changes, Marketing campaigns."
+    },
+    "contact": {
+        "email": "raminenishyam90@gmail.com",
+        "phone": "+91 8978719494",
+        "location": "Hyderabad, India",
+        "linkedin": {
+            "url": "https://linkedin.com/in/shyam-ramineni",
+            "display": "linkedin.com/in/shyam-ramineni"
+        }
+    },
+    "experience": [
+        {
+            "role": "Sr Manager - Projects",
+            "company": "Cognizant",
+            "period": "12/2023 - Present",
+            "location": "",
+            "color": "primary",
+            "responsibilities": [
+                "Lead the Development of key go-to-market initiatives for a large Telecom Service Provider in Australia. Responsible for Solution Architecture.",
+                "I work on Solution Design, and API Design, for key business initiatives.",
+                "Responsible for the Delivery pipeline from writing code, unit testing, quality gates, static code analysis, and CI\\CD pipelines.",
+                "Responsible for key integration touch points from third-party integrations, and Salesforce Database integrations.",
+                "I am responsible for L3 support, and I have good knowledge of the observability stack, which contains tools like CloudFoundry, Splunk, and Newrelic.",
+                "I have worked in a complex environment that involves Microservices, Microfrontends, Cloufoundry, AEM, Salesforce, Splunk, and Newrelic.",
+                "Responsible for Technical Delivery, and managed a delivery team of close to 15 members with a mix of FE and BE capabilities."
+            ]
+        },
+        {
+            "role": "Technical Manager",
+            "company": "Netcracker Technologies",
+            "period": "07/2022 - 09/2023",
+            "location": "Hyderabad, India",
+            "color": "secondary",
+            "responsibilities": [
+                "Part of the Solution Delivery Team that implements BSS and OSS software with focus on Digital channels for a very large Mobile Network Operator in Japan.",
+                "I am responsible for Digital Channels, both Web and Mobile. We handle eCommerce and Self Care functionality, with focus on User experience, Solution delivery.",
+                "Product owner of Digital channels and I play key role in Requirement Assessment, Estimations, Design Review, and Delivery and L support of the Digital Channels.",
+                "Lead development team spread across, US, Mexico, Ukraine, Vietnam and India. Handle Performance Management, Skill Management for the team members.",
+                "Manage Delivery of a project, with focus on Financials, Vendor Management and Risk Management. I handle all Stakeholder communication related to project delivery, milestones, and changes to project scope."
+            ]
+        },
+        {
+            "role": "Engineering Manager",
+            "company": "Verizon Data Services (transitioned to Infosys)",
+            "period": "01/2019 - 06/2022",
+            "location": "Hyderabad, India",
+            "color": "secondary",
+            "responsibilities": [
+                "I am the Technical manager and Product owner for HR Services, Time and Attendance, Workforce Management applications.",
+                "I lead the development of new User Experience layer on top of Vendor product(Infor HCM). This angular app has close to 9K loc.",
+                "This new application has 6 different Time Sheets for different employee groups like Retail, IT Project, Construction, Call Center, Management Employees. This was a 9m$ project.",
+                "I lead development Corporate Mobile App based on React Native framework. This App is used by all close 120K employees to view and update Time, Leave, Attendance, and Pay Information.",
+                "I lead the design and development of Microservices for complicated Time Entry touch points and HRIS integrations.",
+                "Skill Development, Team Building and Performance Management."
+            ]
+        },
+        {
+            "role": "Engineering Manager",
+            "company": "Verizon Data Services",
+            "period": "04/2015 - 12/2018",
+            "location": "Hyderabad, India",
+            "color": "secondary",
+            "responsibilities": [
+                "I was the Delivery manager responsible for Application Security, Code Quality and code refactoring.",
+                "I was the Solution architect, and lead Data center migrations for large internal HR applications.",
+                "I handle Payroll close operations for US employees.",
+                "I mentored, coached and handled performance management activities for the team.",
+                "I did the System Design and Architecture for Automation of STD, FMLA processing which resulted in saving 2m$ every year."
+            ]
+        }
+    ],
+    "skills": [
+        "Java",
+        "J2EE",
+        "RestApi",
+        "Groovy",
+        "Scala",
+        "SpringMVC/Boot",
+        "AWS",
+        "DynamoDB",
+        "Cloudfront S3",
+        "Apigee",
+        "Nodejs",
+        "Microservices",
+        "EC2",
+        "Angularjs",
+        "Reactjs",
+        "Kafka",
+        "Cloudformation",
+        "Docker",
+        "Kubernetes",
+        "Route53",
+        "Agile Methodology",
+        "Redis",
+        "Product Development",
+        "Change Management",
+        "Mongodb",
+        "React Native",
+        "Flutter"
+    ],
+    "certificates": [
+        {
+            "name": "AWS Certified Solutions Architect",
+            "meta": "Associate"
+        },
+        {
+            "name": "AWS Certified Solutions Developer",
+            "meta": "Associate"
+        },
+        {
+            "name": "Architect Readiness Programme",
+            "meta": "IIT, Chennai"
+        },
+        {
+            "name": "Sun Certified Web Component Developer"
+        },
+        {
+            "name": "Sun Certified Java Developer (Java2)"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Technology",
+            "school": "Jawaharlal Nehru Technological University",
+            "period": "08/1998 - 04/2002"
+        }
+    ]
+}
