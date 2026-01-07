@@ -6,27 +6,27 @@ document.querySelector('#app').innerHTML = `
     
     <!-- Header / Hero Section -->
     <div class="bg-primary text-white p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start gap-6 print:px-8 print:pt-8 print:pb-2 print:gap-4 print:flex-row print:justify-start print:items-center">
-      <div class="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 print:block">
-        <img src="${data.profile.avatar}" alt="${data.profile.name}" class="w-full h-full object-cover rounded-full border-4 border-white shadow-lg">
+      <div class="w-32 h-32 md:w-40 md:h-40 flex-shrink-0 print:block rounded-full border-4 border-white shadow-lg overflow-hidden">
+        <img src="${data.profile.avatar}" alt="${data.profile.name}" class="w-full h-full object-cover object-center">
       </div>
       <div class="flex-grow text-center md:text-left print:text-left">
-        <h1 class="text-2xl md:text-3xl font-bold mb-2 print:text-xl print:mb-1">${data.profile.name}</h1>
-        <h3 class="text-lg font-light text-blue-200 mb-4 print:text-base print:text-gray-600 print:mb-2">${data.profile.title}</h3>
-        <p class="text-blue-100 leading-relaxed max-w-3xl text-xs print:text-gray-700 print:mb-2">
+        <h1 class="text-2xl md:text-3xl font-bold mb-2 text-white print:text-xl print:mb-1 print:text-gray-900">${data.profile.name}</h1>
+        <h3 class="text-lg font-light text-gray-300 mb-4 print:text-base print:text-gray-600 print:mb-2">${data.profile.title}</h3>
+        <p class="text-gray-200 leading-relaxed max-w-3xl text-xs print:text-gray-700 print:mb-2">
           ${data.profile.summary}
         </p>
         
         <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-3 text-xs font-medium print:hidden">
-           <div class="flex items-center gap-2 bg-blue-800 px-3 py-1 rounded-full">
+           <div class="flex items-center gap-2 bg-gray-700 px-3 py-1 rounded-full">
              <span>📧</span> ${data.contact.email}
            </div>
-           <div class="flex items-center gap-2 bg-blue-800 px-3 py-1 rounded-full">
+           <div class="flex items-center gap-2 bg-gray-700 px-3 py-1 rounded-full">
              <span>📱</span> ${data.contact.phone}
            </div>
-           <div class="flex items-center gap-2 bg-blue-800 px-3 py-1 rounded-full">
+           <div class="flex items-center gap-2 bg-gray-700 px-3 py-1 rounded-full">
              <span>📍</span> ${data.contact.location}
            </div>
-           <a href="${data.contact.linkedin.url}" target="_blank" class="flex items-center gap-2 bg-blue-800 px-3 py-1 rounded-full hover:bg-blue-700 transition">
+           <a href="${data.contact.linkedin.url}" target="_blank" class="flex items-center gap-2 bg-gray-700 px-3 py-1 rounded-full hover:bg-gray-600 transition">
              <span>🔗</span> ${data.contact.linkedin.display}
            </a>
         </div>
