@@ -57,7 +57,7 @@ document.querySelector('#app').innerHTML = `
       </div>
 
       <!-- Sidebar -->
-      <div class="w-full md:w-1/3 bg-gray-50 p-6 md:p-8 border-t md:border-t-0 md:border-l border-gray-200 print:px-4 print:pt-2 print:w-1/3 print:border-t-0 print:border-l">
+      <div class="w-full md:w-1/3 bg-gray-50 p-6 md:p-8 border-t md:border-t-0 md:border-l border-gray-200 print:px-4 print:pt-2 print:w-1/3 print:border-t-0 print:border-l print:bg-white">
         
         <!-- Skills -->
         <div class="mb-6 print:mb-4">
@@ -72,11 +72,11 @@ document.querySelector('#app').innerHTML = `
         <!-- Certificates -->
         <div class="mb-6 print:mb-4">
           <h2 class="text-base font-bold text-gray-800 mb-4 uppercase tracking-wider border-b-2 border-secondary pb-1 print:mb-2 print:pb-0.5 print:text-sm">Certificates</h2>
-          <ul class="space-y-2 text-xs print:space-y-1">
+          <ul class="space-y-2 text-xs print:space-y-1 print:text-[10px]">
             ${data.certificates.map(cert => `
               <li class="bg-white p-2 rounded border border-gray-200 shadow-sm print:p-1.5">
                 <div class="font-semibold text-gray-800">${cert.name}</div>
-                ${cert.meta ? `<div class="text-[10px] text-gray-500">${cert.meta}</div>` : ''}
+                ${cert.meta ? `<div class="text-[10px] text-gray-500 print:text-[9px]">${cert.meta}</div>` : ''}
               </li>
             `).join('')}
           </ul>
