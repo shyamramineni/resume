@@ -1,9 +1,9 @@
 {
     "profile": {
         "name": "Shyam Ramineni",
-        "title": "Technical Manager",
+        "title": "Senior Manager",
         "avatar": "avatar.jpg",
-        "summary": "Technical Manager with proven experience in Telecom, Insurance and HR domains. I handle Digital Channels for a large Mobile Network operator. I am responsible for both Web and Mobile applications which integrate with the BSS and OSS stack in the back end. These Apps are first touch points in customer journey and handle eCommerce, and Self Service functionality for all the customers. I handle the Delivery for major Product roll outs, Network Changes, Marketing campaigns."
+        "summary": "Engineering Manager with proven experience in Telecom, Insurance and HR domains. I handle Digital Channels for a large Mobile Network operator. I am responsible for both Web and Mobile applications which integrate with the BSS and OSS stack in the back end. These Apps are first touch points in customer journey and handle eCommerce, and Self Service functionality for all the customers. I handle the Delivery for major Product roll outs, Network Changes, Marketing campaigns."
     },
     "contact": {
         "email": "raminenishyam90@gmail.com",
@@ -22,13 +22,13 @@
             "location": "",
             "color": "primary",
             "responsibilities": [
-                "Lead the Development of key go-to-market initiatives for a large Telecom Service Provider in Australia. Responsible for Solution Architecture.",
+                "Lead the Development of key go-to-market initiatives for a Telstra which is Telecom Service Provider in Australia. Responsible for Solution Architecture.",
                 "I work on Solution Design, and API Design, for key business initiatives.",
                 "Responsible for the Delivery pipeline from writing code, unit testing, quality gates, static code analysis, and CI\\CD pipelines.",
                 "Responsible for key integration touch points from third-party integrations, and Salesforce Database integrations.",
                 "I am responsible for L3 support, and I have good knowledge of the observability stack, which contains tools like CloudFoundry, Splunk, and Newrelic.",
                 "I have worked in a complex environment that involves Microservices, Microfrontends, Cloufoundry, AEM, Salesforce, Splunk, and Newrelic.",
-                "Responsible for Technical Delivery, and managed a delivery team of close to 15 members with a mix of FE and BE capabilities."
+                "Responsible for Technical Delivery, and managed a delivery team of close to 25 members with a mix of FE and BE capabilities."
             ]
         },
         {
@@ -102,7 +102,8 @@
         "Change Management",
         "Mongodb",
         "React Native",
-        "Flutter"
+        "Flutter",
+        "Generative AI"
     ],
     "certificates": [
         {
